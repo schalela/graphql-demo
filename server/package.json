@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "GraphQL Server",
+  "main": "index.js",
+  "author": "Samuel C <samuel.chalela@thoughtworks.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.3.1",
+    "graphql": "^14.1.1",
+    "uuid": "^3.3.2"
+  }
+}
